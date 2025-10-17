@@ -1,0 +1,173 @@
+Project Plan
+Project Number: 44
+Project Title: AI-powered French Learning (AIFL)
+Date: September 28, 2024
+Team Information
+Prepared by:
+KS
+
+Team Members:
+
+Kusha Sharma
+
+
+Table of Contents
+Project Description
+Overview
+Key Requirements
+Deliverables
+Acronyms and Abbreviations
+Design and Architecture
+Design Description
+Alternate Design Possibilities
+Implementation Strategy
+High-Level Work Breakdown Structure
+Schedule/Timeline
+Required Hardware
+Third-party Content
+Quality Assurance
+Process
+Process Description and Justification
+Tools
+Roles and Responsibilities
+Location of Project Artifacts
+Sponsor Communications
+Risk Management
+Identified Potential Risks
+Mitigation Strategies
+
+
+1. Project Description
+Overview
+The AI-powered French Learning (AIFL) project aims to develop a web application that uses Generative AI to help French learners practice vocabulary, grammar, and comprehension through interactive text-based conversations. The core of this project is an Intelligent Tutor System (ITS) powered by Large Language Models (LLMs), which generates personalized learning experiences. The focus will be on beginner French (Chapters 1-4 of the Cengage MindTap ebook), providing students with questions and feedback adapted to their learning progress.
+
+Context:
+This project fits into the Education global trend by leveraging AI technologies to support language learning and improving student engagement and learning outcomes.
+
+Motivation:
+This project will assist Arizona State University students in learning French efficiently by offering immediate feedback and personalized lessons based on their textbook content.
+
+
+Key Requirements
+Generative AI Integration: The application must use an LLM, such as OpenAI's GPT, to generate contextually relevant questions and feedback based on the Cengage French 101(subject to include more chapters) textbook. Chapter P - 3/4
+Web Application: The frontend will be developed using Angular, while the backend will utilize Flask to manage interactions between the user and the LLM.
+Personalized User Experience: Users will select their current learning chapter, and the system will generate questions and feedback specific to that chapter.
+Text-based Interaction: The chatbot will engage users in text-only interactions to help them practice French vocabulary and grammar.
+Scalability: The application should be scalable to support more advanced content in the future in the form of admin implementations.
+
+
+Deliverables
+Fully Functional Web Application:
+Integrated chatbot capable of generating personalized French language practice sessions using Generative AI.
+LLM Integration:
+Basic integration with OpenAI's GPT for text-based question generation.
+User Interface:
+An intuitive user interface for selecting chapters and practicing language skills.
+Documentation:
+Comprehensive documentation for maintainers and users, including deployment instructions and user manuals.
+
+
+Acronyms and Abbreviations
+
+
+Acronym
+Definition
+AI
+Artificial Intelligence
+LLM
+Large Language Model
+ITS
+Intelligent Tutor System
+GPT
+Generative Pretrained Transformer
+API
+Application Programming Interface
+
+
+
+
+
+2. Design and Architecture
+Design Description
+The system will be divided into three core components:
+
+Frontend (Angular):
+Handles user input and interaction. Users select their current chapter and receive questions and feedback in real-time.
+Backend (Flask):
+Serves as the interface between the frontend and the LLM, managing user input, generating questions, and handling data storage.
+LLM (OpenAI GPT):
+Generates language-based questions and provides feedback based on the student's responses.
+Alternate Design Possibilities
+We considered using an existing French language learning app but chose to build a custom solution that integrates Generative AI to dynamically generate personalized questions and feedback, ensuring a more adaptable and interactive learning experience.
+
+
+3. Implementation Strategy
+High-Level Work Breakdown Structure
+Frontend (Angular):
+Develop a user-friendly interface for interacting with the chatbot.
+Backend (Flask):
+Implement API endpoints to process user input and communicate with the LLM.
+LLM Integration:
+Integrate OpenAI's GPT API to generate French language questions and feedback.
+Testing and Refinement:
+Continuous testing and feedback integration to refine the learning experience.
+Schedule/Timeline
+https://docs.google.com/spreadsheets/d/1kPCGOd8ecBAuPoR_7VHYZeJhkdZxRYOVRz41o8gQtog/edit?usp=sharing
+
+Hardware
+
+No specialized hardware is required. The project will be built and tested using standard laptops and cloud infrastructure for the LLM (OpenAI's API).
+
+
+Third-party Content
+OpenAI API for LLM integration. This requires API keys, and usage costs should be considered.
+Cengage MindTap ebook for content reference (provided by the sponsor).
+
+
+Quality Assurance
+Quality will be measured through:
+
+Functional testing: Ensuring the chatbot works as intended.
+User testing: Feedback from real users to improve the user experience.
+Code reviews: Regular peer reviews to ensure code quality.
+
+
+4. Process
+Process Description and Justification
+We will follow an Agile development process with two-week sprints. This process allows us to iterate quickly based on sponsor feedback and adapt the system as we gather user feedback.
+Tools
+GitHub for version control and collaboration.
+Slack for communication.
+Taiga for task management.
+
+
+Roles and Responsibilities
+Miaka Miiko San Gabriel: TBA
+Preeti Phillip: TBA
+Alhaj Musa: TBA
+Walter Feliu: TBA
+Kusha Sharma: TBA
+
+The roles will be shared among the team. All our teammates have school experience exclusively. to rotate with the roles of scrum master and git master.
+
+
+Location of Project Artifacts
+Project artifacts will be stored on a GitHub repository, available to both the team and sponsors for review.
+
+
+Sponsor Communications
+We will hold bi-weekly meetings with the sponsors to review progress, discuss challenges, and ensure alignment with project goals. Meetings will be conducted via Zoom.
+
+
+5. Risk Management
+Identified Potential Risks
+LLM integration challenges: Issues with API costs, performance, or customization could delay development.
+User engagement: The system may not engage users as expected, requiring more extensive testing and refinement.
+
+
+Mitigation Strategies
+LLM integration: Start with basic API functionality and scale as needed. Explore fine-tuning options early. Ask sponsors for suggestions on what technologies to use since they can provide support on the ones they use.
+User engagement: Gather feedback from real users early and iteratively improve the system based on that feedback.
+
+
+
